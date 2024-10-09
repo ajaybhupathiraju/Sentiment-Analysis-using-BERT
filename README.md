@@ -12,7 +12,6 @@ we are using BERT to be fine-tuned on reviews of sentiment analysis task
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
-- [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
 - [EDA](#exploratory-data-analysis)
 - [Assumptions](#assumptions)
 - [Machine learning model](#machine-learning-model)
@@ -31,3 +30,13 @@ import movie reviews hugging face datasets
 https://huggingface.co/datasets/stanfordnlp/imdb
 
 refernce bert documentations from https://huggingface.co/docs/transformers/model_doc/bert
+
+## Exploratory Data Analysis
+25,000 train and 25,000 test reviews
+
+## Assumptions
+Fine-tuning a BERT model involves taking a pre-trained BERT model and adapting it to perform a specific NLP task, such as text classification, named entity recognition, or question answering. The pre-trained BERT model has already learned a lot about the structure of the language from vast amounts of unlabeled text data, so fine-tuning allows you to apply this knowledge to your task with task-specific labeled data.
+
+1. Batch Size: Fine-tuning BERT can be memory intensive. Hence smaller batch size used 4.
+2. Learning Rate: Typical learning rates for fine-tuning BERT are in the range of 1e-5 to 5e-5. in this project we used 2e-5.
+3. Epochs: Generally, 3-5 epochs of fine-tuning are enough. BERT tends to overfit if trained for too many epochs.
