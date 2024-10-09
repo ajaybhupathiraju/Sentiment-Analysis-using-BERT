@@ -21,4 +21,13 @@ we are using BERT to be fine-tuned on reviews of sentiment analysis task
 - [Loss function](#loss-function)
 - [Making Predictions](#making-predictions)
 - [Deployee model](#deployee-model)
-- 
+
+## Project Overview
+  
+The goal of this project is to build a model using bert transformers that classifies the given input review is positive or negative.
+
+## Data Sources
+import movie reviews hugging face datasets
+https://huggingface.co/datasets/stanfordnlp/imdb
+
+refernce bert documentations from https://huggingface.co/docs/transformers/model_doc/bert
