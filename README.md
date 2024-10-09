@@ -6,3 +6,19 @@ It revolutionized the way NLP models handle text by introducing bidirectional co
 
 BERT is pre-trained on large corpora of text (e.g., Wikipedia, BookCorpus) using two tasks: Masked Language Modeling (MLM) and Next Sentence Prediction (NSP).
 we are using BERT to be fine-tuned on reviews of sentiment analysis task
+
+![alt text](/bert_single_sentence_arch.png)
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Why Transformers choosen over convolution neural networks](#why-transformers-over-cnn)
+- [EDA](#exploratory-data-analysis)
+- [Assumptions](#assumptions)
+- [Machine learning model](#machine-learning-model)
+  - [Vision Transformer from scratch](#custom-vit-model)
+  - [Using pretrained hugging face model](#hugging-face-pre-trained-model)
+- [Loss function](#loss-function)
+- [Making Predictions](#making-predictions)
+- [Deployee model](#deployee-model)
+- 
