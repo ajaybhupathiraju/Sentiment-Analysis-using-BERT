@@ -45,3 +45,9 @@ Fine-tuning a BERT model involves taking a pre-trained BERT model and adapting i
 ## Loss function
 TFBertForSequenceClassification does not have a loss function when you compile the model is related to how Hugging Face models are structured and how they interact with TensorFlow and Keras.
 we are using Pre-built Loss in Hugging Face Models.This means that the loss is already computed within the model
+
+## Making predictions
+Model is capable to predict given input(s) is positive or negative
+
+## Deployee model
+Deployee the model into my local machine using fastAPI.
