@@ -15,8 +15,6 @@ we are using BERT to be fine-tuned on reviews of sentiment analysis task
 - [EDA](#exploratory-data-analysis)
 - [Assumptions](#assumptions)
 - [Machine learning model](#machine-learning-model)
-  - [Vision Transformer from scratch](#custom-vit-model)
-  - [Using pretrained hugging face model](#hugging-face-pre-trained-model)
 - [Loss function](#loss-function)
 - [Making Predictions](#making-predictions)
 - [Deployee model](#deployee-model)
@@ -40,3 +38,10 @@ Fine-tuning a BERT model involves taking a pre-trained BERT model and adapting i
 1. Batch Size: Fine-tuning BERT can be memory intensive. Hence smaller batch size used 4.
 2. Learning Rate: Typical learning rates for fine-tuning BERT are in the range of 1e-5 to 5e-5. in this project we used 2e-5.
 3. Epochs: Generally, 3-5 epochs of fine-tuning are enough. BERT tends to overfit if trained for too many epochs.
+
+## Machine learning model
+- [**ML Code**](BERT.ipynb)
+
+## Loss function
+TFBertForSequenceClassification does not have a loss function when you compile the model is related to how Hugging Face models are structured and how they interact with TensorFlow and Keras.
+we are using Pre-built Loss in Hugging Face Models.This means that the loss is already computed within the model
