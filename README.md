@@ -54,5 +54,5 @@ Deployee the model into my local machine using fastAPI.
 
 ![alt text](images/swagger_1.jpg)
 
-![alt text](images/swagger_1.jpg)
+![alt text](images/swagger_response.jpg)
 
