@@ -51,3 +51,8 @@ Model is capable to predict given input(s) is positive or negative
 
 ## Deployee model
 Deployee the model into my local machine using fastAPI.
+
+![alt text](images/swagger_1.jpg)
+
+![alt text](images/swagger_1.jpg)
+
